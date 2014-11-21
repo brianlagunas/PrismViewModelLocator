@@ -1,0 +1,10 @@
+﻿<Window x:Class="ViewModelLocatorDemo.Views.MainDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="clr-namespace:Microsoft.Practices.Prism.Mvvm;assembly=Microsoft.Practices.Prism.Mvvm.Desktop"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="MainDemo" Height="300" Width="300">
+    <Grid>
+        <TextBlock Text="{Binding Message}"  FontSize="36" />
+    </Grid>
+</Window>
